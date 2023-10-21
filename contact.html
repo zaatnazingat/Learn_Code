@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="Blog/CSS/animate.css">
+    <link rel="stylesheet" href="Blog/CSS/aos.css">
+    <link rel="stylesheet" href="Blog/CSS/flaticon.css">
+    <link rel="stylesheet" href="Blog/CSS/glightbox.min.css">
+    <link rel="stylesheet" href="Blog/CSS/BootStyle.css">
+    <link rel="stylesheet" href="Blog/CSS/style.css">
+
+    <script nonce="15cbe9d2-c6c6-40f3-a93f-e65164955964">
+    (function(w,d){!function(bt,bu,bv,bw){bt[bv]=bt[bv]||{};
+    bt[bv].executed=[];
+    bt.zaraz={deferred:[],listeners:[]};
+    bt.zaraz.q=[];
+    bt.zaraz._f=function(bx){return function(){var by=Array.prototype.slice.call(arguments);
+        bt.zaraz.q.push({m:bx,a:by})}};
+        for(const bz of["track","set","debug"])bt.zaraz[bz]=bt.zaraz._f(bz);
+        bt.zaraz.init=()=>{var bA=bu.getElementsByTagName(bw)[0],
+            bB=bu.createElement(bw),
+            bC=bu.getElementsByTagName("title")[0];
+        bC&&(bt[bv].t=bu.getElementsByTagName("title")[0].text);
+        bt[bv].x=Math.random();
+        bt[bv].w=bt.screen.width;
+        bt[bv].h=bt.screen.height;
+        bt[bv].j=bt.innerHeight;
+        bt[bv].e=bt.innerWidth;
+        bt[bv].l=bt.location.href;
+        bt[bv].r=bu.referrer;
+        bt[bv].k=bt.screen.colorDepth;
+        bt[bv].n=bu.characterSet;
+        bt[bv].o=(new Date).getTimezoneOffset();
+        if(bt.dataLayer)for(const bG of Object.entries(Object.entries(dataLayer).reduce(((bH,bI)=>({...bH[1],...bI[1]})),{})))zaraz.set(bG[0],bG[1],{scope:"page"});
+        bt[bv].q=[];
+        for(;bt.zaraz.q.length;){const bJ=bt.zaraz.q.shift();
+        bt[bv].q.push(bJ)}bB.defer=!0;
+        for(const bK of[localStorage,sessionStorage])Object.keys(bK||{}).filter((bM=>bM.startsWith("_zaraz_"))).forEach((bL=>{try{bt[bv]["z_"+bL.slice(7)]=JSON.parse(bK.getItem(bL))}catch{bt[bv]["z_"+bL.slice(7)]=bK.getItem(bL)}}));
+        bB.referrerPolicy="origin";
+        bB.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(bt[bv])));
+        bA.parentNode.insertBefore(bB,bA)};
+        ["complete","interactive"].includes(bu.readyState)?zaraz.init():bt.addEventListener("DOMContentLoaded",zaraz.init)}
+        (w,d,"zarazData","script");})(window,document);
+    </script>
+
+    <title>Blog Website</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top ftco-navbar-light">
+        <div class="container-xl">
+            <a href="index.html" class="navbar-brand align-items-center">
+                BloGGer
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-items">
+                        <a href="index.html" class="nav-link active">Blog</a>
+                    </li>
+
+                    <li class="nav-items">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+                    <li class="nav-items">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
